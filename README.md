@@ -1,6 +1,6 @@
 <h1 align="center">Aplicación de Clima Por Consola Interactiva</h1>
 <p align="center">
-  Esta es una aplicación de gestor de tareas realizada en Node.js que se ejecuta por consola de manera interactiva.
+  Esta es una aplicación de consulta del clima de una ciudad especifica realizada en Node.js que se ejecuta por consola de manera interactiva.
 </p>
 <h1></h1>
 <h2 align="center">Herramientas</h2>
@@ -62,157 +62,98 @@
     ==========================
 
     ? ¿Qué desea hacer? (Use arrow keys)
-    > 1. Crear tarea
-      1. Listar tareas
-      2. Listar tareas completadas
-      3. Listar tareas pendientes
-      4. Completar tarea(s)
-      5. Borrar tarea
-      6. Salir
-<h2 align="center">Crear Tarea</h2>
+    > 1. Buscar ciudad
+      2. Historial
+      0. Salir
 
-    ==========================
-      Seleccione una opción
-    ==========================
-
-    ? ¿Qué desea hacer? 1. Crear tarea
-    ? Descripción:
+<h2 align="center">Buscar Ciudad</h2>
 
     ==========================
     Seleccione una opción
     ==========================
 
-    ? ¿Qué desea hacer? 1. Crear tarea
-    ? Descripción: nueva tarea
-
-    ? Presione enter para continuar
-
-<h2 align="center">Listar Tarea</h2>
-
-    ==========================
-      Seleccione una opción
-    ==========================
-
-    ? ¿Qué desea hacer? 2. Listar tareas
-
-    1 nueva tarea :: Pendiente
-
-    ? Presione enter para continuar
-
-<h1></h1>
-<h2 align="center">Listar Tareas Completas</h2>
-
-    ==========================
-      Seleccione una opción
-    ==========================
-
-    ? ¿Qué desea hacer? 3. Listar tareas completadas
-
-    1. nueva tarea :: 2022-03-22T07:12:23.881Z
-
-    ? Presione enter para continuar
-
-<h1></h1>
-<h2 align="center">Listar Tareas Pendientes</h2>
-
-    ==========================
-      Seleccione una opción
-    ==========================
-
-    ? ¿Qué desea hacer? 4. Listar tareas pendientes
-
-    1. tarea 2 :: Pendiente
-
-    ? Presione enter para continuar
-
-<h1></h1>
-<h2 align="center">Completar Tareas</h2>
+    ? ¿Qué desea hacer?
+    > 1. Buscar ciudad
+      2. Historial
+      0. Salir
 
     ==========================
     Seleccione una opción
     ==========================
 
-    ? ¿Qué desea hacer? 5. Completar tarea(s)
-    ? Selecciones
-    >( ) 1. nueva tarea
-     ( ) 2. tarea 2
-
-    ==========================
-        Seleccione una opción
-    ==========================
-
-    ? ¿Qué desea hacer? 5. Completar tarea(s)
-    ? Selecciones (Press <space> to select, <a> to toggle all, <i> to invert selection)
-    >(*) 1. nueva tarea
-    ( ) 2. tarea 2
+    ? ¿Qué desea hacer? 1. Buscar ciudad
+    ? Ciudad:
+    >> Por favor ingrese un valor
 
     ==========================
       Seleccione una opción
     ==========================
 
-    ? ¿Qué desea hacer? 5. Completar tarea(s)
-    ? Selecciones 1. nueva tarea
-
-    ? Presione enter para continuar
-
-<h1></h1>
-<h2 align="center">Borrar Tarea</h2>
-
-    ==========================
-      Seleccione una opción
-    ==========================
-
-    ? ¿Qué desea hacer? 6. Borrar tarea
-    ? Borrar (Use arrow keys)
-    > 0. Cancelar
-      1. nueva tarea
-      2. tarea 2
-
-    ==========================
-    Seleccione una opción
-    ==========================
-
-    ? ¿Qué desea hacer? 6. Borrar tarea
-    ? Borrar
+    ? ¿Qué desea hacer? 1. Buscar ciudad
+    ? Ciudad:  Guayaquil
+    ? Seleccione lugar: (Use arrow keys)
       0. Cancelar
-      1. nueva tarea
-    > 2. tarea 2
-    ==========================
-    Seleccione una opción
-    ==========================
+    > 1. Guayaquil, Provincia de Guayas, Ecuador
+      2. Guayaquil Tennis Club, Samborondon, Cantón Samborondón, Provincia de Guayas 0923,
+    Ecuador
+      3. Guayaquil Tennis Club, Centro, Guayaquil, Provincia de Guayas 0903, Ecuador
+      4. Guayaquil, Guayaquil, Provincia de Guayas 0903, Ecuador
+      5. Guayaquil Country Club, Km 19 Via Daule, Guayaquil, Provincia de Guayas 0907, Ecua
+    (Move up and down to reveal more choices)
 
-    ? ¿Qué desea hacer? 6. Borrar tarea
-    ? Borrar 2. tarea 2
-    ? ¿Está seguro? (Y/n)
+    Información de la ciudad
 
-    ==========================
-    Seleccione una opción
-    ==========================
-
-    ? ¿Qué desea hacer? 6. Borrar tarea
-    ? Borrar 2. tarea 2
-    ? ¿Está seguro? (Y/n) y
-
-    ==========================
-    Seleccione una opción
-    ==========================
-
-    ? ¿Qué desea hacer? 6. Borrar tarea
-    ? Borrar 2. tarea 2
-    ? ¿Está seguro? Yes
-    Tarea borrada
+    Ciudad: Guayaquil, Provincia de Guayas, Ecuador
+    Lat: -2.18333
+    Lng: -79.88333
+    Temperatura: 28.88
+    Mínima: 28.21
+    Máxima: 28.88
+    Como está el clima: muy nuboso
 
     ? Presione enter para continuar
 
-<h1></h1>
-<h2 align="center">Salir De App De Tareas</h2>
+<h2 align="center">Historial</h2>
 
     ==========================
       Seleccione una opción
+    ==========================
+
+    ? ¿Qué desea hacer?
+      1. Buscar ciudad
+    > 2. Historial
+      0. Salir
+
+    ==========================
+      Seleccione una opción
+    ==========================
+
+    ? ¿Qué desea hacer? 2. Historial
+
+    1. Bogotá, Colombia
+    2. Ottawa, Ontario, Canadá
+    3. Guayaquil, Provincia De Guayas, Ecuador
+
+    ? Presione enter para continuar
+
+
+<h1></h1>
+<h2 align="center">Salir</h2>
+
+    ==========================
+      Seleccione una opción
+    ==========================
+
+    ? ¿Qué desea hacer?
+      1. Buscar ciudad
+      2. Historial
+    > 0. Salir
+
+    ==========================
+    Seleccione una opción
     ==========================
 
     ? ¿Qué desea hacer? 0. Salir
 
     ? Presione enter para continuar
-
 <h1></h1>
