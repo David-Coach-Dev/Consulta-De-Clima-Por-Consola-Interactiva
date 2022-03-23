@@ -15,15 +15,15 @@
    - colors.js</a>
   <br><br>
   <a href="https://www.npmjs.com/package/inquirer" target="_blank" rel="inquirer.js">
-  <img src="https://i.imgur.com/iqEgCV9.png" alt="inquirer.js" width="50" height="50"/>
+  <img src="https://i.imgur.com/V1RWR7l.png" alt="inquirer.js" width="50" height="50"/>
    - inquirer.js</a>
   <br><br>
   <a href="https://www.npmjs.com/package/axios" target="_blank" rel="axios.js">
-  <img src="https://i.imgur.com/iqEgCV9.png" alt="axios.js" width="50" height="50"/>
+  <img src="https://i.imgur.com/V1RWR7l.png" alt="axios.js" width="50" height="50"/>
    - axios.js</a>
   <br><br>
   <a href="https://www.npmjs.com/package/nodev" target="_blank" rel="nondev.js">
-  <img src="https://i.imgur.com/iqEgCV9.png" alt="nodev.js" width="50" height="50"/>
+  <img src="https://i.imgur.com/V1RWR7l.png" alt="nodev.js" width="50" height="50"/>
    - nodev.js</a>
   <br><br>
   <a href="https://reqres.in/" target="_blank" rel="regres.in">
